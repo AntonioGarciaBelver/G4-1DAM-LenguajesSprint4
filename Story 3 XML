@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurantmenu>
+
+  <plate category="starter">
+    <name>Aros de cebolla</name>
+    <price>3,5€</price>
+    <ingredients>Aros de cebolla</ingredients>
+  </plate>
+
+  <plate category="starter">
+    <name>Alitas picantes</name>
+    <price>3,5€</price>
+    <ingredients>Alitas de ternera picantes</ingredients>
+  </plate>
+
+  <plate category="main">
+    <name>Canoles con carne</name>
+    <price>8,95€</price>
+    <ingredients>Canelones con carne de ternera y bechamel</ingredients>
+  </plate>
+
+  <plate category="main">
+    <name>Penne Rigate</name>
+    <price>6,45€</price>
+    <ingredients>Pasta Rigate con salsa boloñesa</ingredients>
+  </plate>
+
+  <plate category="main">
+    <name>Pizza BBQ Pulled Pork</name>
+    <price>10,5€</price>
+    <ingredients>Salsa bbq, mozzarella, cebolla, pulled pork.</ingredients>
+  </plate>
+
+  <plate category="main">
+    <name>Pizza Quattro Stagione</name>
+    <price>10,5€</price>
+    <ingredients>Salsa tomate, mozzarella, jamón, salami, champiñones</ingredients>
+  </plate>
+
+  <plate category="main">
+    <name>Ensalada Alemana</name>
+    <price>8,75€</price>
+    <ingredients>Mezcla de Lechugas,salchicha de frankfurt, jamon york, cebolla frita y aliñada con salsa de miel y mostaza.</ingredients>
+  </plate>
+
+  <plate category="main">
+    <name>Ensaladadel Bosque</name>
+    <price>8,75€</price>
+    <ingredients>Mezcla de Lechugas, queso de cabra en dados, cebolla frita, nueces y aliñada con sirope de frambuesa.</ingredients>
+  </plate>
+
+  <plate category="dessert">
+    <name>Trufas Heladas</name>
+    <price>1,95€</price>
+    <ingredients>Trufas.</ingredients>
+  </plate>
+
+  <plate category="dessert">
+    <name>Tarrina Sorbete Limon</name>
+    <price>2,00€</price>
+    <ingredients>Sorbete de limon.</ingredients>
+  </plate>
+
+</restaurantmenu>
