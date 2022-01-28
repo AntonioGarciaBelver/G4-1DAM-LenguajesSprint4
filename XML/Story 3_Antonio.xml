@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurantmenu>
+
+  <plate category="starter">
+    <name>Aros de cebolla</name>
+    <price>3,5€</price>
+    <ingredients>Aros de cebolla</ingredients>
+  </plate>
+
+  <plate category="starter">
+    <name>Alitas picantes</name>
+    <price>3,5€</price>
+    <ingredients>Ternera</ingredients>
+    <ingredients>Salsa Picante</ingredients>
+  </plate>
+
+  <plate category="main">
+    <name>Canoles con carne</name>
+    <price>8,95€</price>
+    <ingredients>Canelones</ingredients>
+    <ingredients>Ternera</ingredients>
+    <ingredients>Bechamel</ingredients>
+  </plate>
+
+  <plate category="main">
+    <name>Penne Rigate</name>
+    <price>6,45€</price>
+    <ingredients>Pasta Rigate</ingredients>
+    <ingredients>Salsa Boloñesa</ingredients>
+  </plate>
+
+  <plate category="main">
+    <name>Pizza BBQ Pulled Pork</name>
+    <price>10,5€</price>
+    <ingredients>Salsa Barbacoa</ingredients>
+    <ingredients>Mozzarella</ingredients>
+    <ingredients>Cebolla</ingredients>
+    <ingredients>Pulled Pork</ingredients>
+  </plate>
+
+  <plate category="main">
+    <name>Pizza Quattro Stagione</name>
+    <price>10,5€</price>
+    <ingredients>Salsa tomate</ingredients>
+    <ingredients>Mozzarella</ingredients>
+    <ingredients>Jamón</ingredients>
+    <ingredients>Salami</ingredients>
+    <ingredients>Champiñones</ingredients>
+  </plate>
+
+  <plate category="main">
+    <name>Ensalada Alemana</name>
+    <price>8,75€</price>
+    <ingredients>Mezcla de Lechugas</ingredients>
+    <ingredients>Salchica Frankfurt</ingredients>
+    <ingredients>Jamón de York</ingredients>
+    <ingredients>Cebolla Frita</ingredients>
+    <ingredients>Salsa de Miel</ingredients>
+    <ingredients>Salsa Mostaza</ingredients>
+  </plate>
+
+  <plate category="main">
+    <name>Ensaladadel Bosque</name>
+    <price>8,75€</price>
+    <ingredients>Mezcla de Lechugas</ingredients>
+    <ingredients>Queso de Cabra</ingredients>
+    <ingredients>Cebolla Frita</ingredients>
+    <ingredients>Nueces</ingredients>
+    <ingredients>Sirope de Frambuesa</ingredients>
+  </plate>
+
+  <plate category="dessert">
+    <name>Trufas Heladas</name>
+    <price>1,95€</price>
+    <ingredients>Trufas</ingredients>
+  </plate>
+
+  <plate category="dessert">
+    <name>Tarrina Sorbete Limon</name>
+    <price>2,00€</price>
+    <ingredients>Sorbete de limon</ingredients>
+  </plate>
+
+</restaurantmenu>
