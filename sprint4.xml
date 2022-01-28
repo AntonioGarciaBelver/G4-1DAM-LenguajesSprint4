@@ -51,7 +51,7 @@
       <sueldo>1500</sueldo>
     </jugador>
   </equipo>
-<!-- EQUIPO 1 -->
+<!-- EQUIPO 2 -->
   <equipo>
     <nombreequipo>equipo2</nombreequipo>
     <posicion>1</posicion>
@@ -102,7 +102,7 @@
       <sueldo>1500</sueldo>
     </jugador>
   </equipo>
-
+<!-- EQUIPO 3 -->
   <equipo>
     <nombreequipo>equipo3</nombreequipo>
     <posicion>4</posicion>
@@ -153,7 +153,7 @@
       <sueldo>1500</sueldo>
     </jugador>
   </equipo>
-
+<!-- EQUIPO 4 -->
   <equipo>
     <nombreequipo>equipo4</nombreequipo>
     <posicion>3</posicion>
