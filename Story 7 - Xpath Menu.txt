@@ -1,0 +1,23 @@
+Solo postres:
+	//plate[@category='dessert']
+
+Todos los platos que tengan un precio menor a 10 euros:
+	/restaurantmenu/plate[price<10.00]
+
+Todos los platos que tenga como ingrediente pescado:
+	/restaurantmenu/plate[ingredients='pescado']
+
+El último plato de la lista:
+	/restaurantmenu/plate[last()]
+
+Sólo el nombre de todos los platos:
+	/restaurantmenu/plate/name
+
+Sólo el nombre y el primer ingrediente de todos los platos:
+	/restaurantmenu/plate/name | /restaurantmenu/plate/ingredients[1]
+
+Haz 3 consultas más sobre lo que quieras. Especifica que es lo que estás consultando:
+
+	Nombre y precio de todos los paltos: /restaurantmenu/plate/name | /restaurantmenu/plate/price
+	Todos los ingredientes de la carta: /restaurantmenu/plate/ingredients
+	Solo entrantes y postres: //plate[@category='starter'] | //plate[@category='dessert']
