@@ -1,0 +1,19 @@
+Mostrar los jugadores del segundo equipo.
+	/equipos/equipo[2]/jugador/nombrejugador
+
+Mostrar sólo los jugadores principales de todos equipos.
+	//jugador[@tipo='principal']/nombrejugador
+
+Mostrar los jugadores con un sueldo mayor a 1500 euros.
+	//jugador[sueldo>1500]/nombrejugador
+
+Mostrar el equipo cuyo ranking sea igual a 1.
+	/equipos/equipo[posicion=1]/nombreequipo
+
+Mostrar sólo el nombre de los equipos y su ranking.
+	//nombreequipo | //posicion
+
+Haz 3 consultas más sobre lo que quieras. Especifica que es lo que estás consultando.
+	Muestra el ultimo en el ranking: /equipos/equipo[posicion=last()]/nombreequipo
+	Mostrar los jugadores mas jovenes: //jugador[edad = min(//edad)]/nombrejugador
+	Mostrar los jugadores mas veteranos: //jugador[edad = max(//edad)]/nombrejugador
