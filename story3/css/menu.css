@@ -1,0 +1,30 @@
+/*-----------------------MENU--------------------------*/
+header > ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 2vh;                    
+  width: 100%;
+
+}
+
+.body__RG {
+
+  background-color: black;
+  width: 100%;
+}
+
+.li__index {
+
+  padding: 0.5em;
+}
+
+.li__index a {
+
+  text-decoration: none;
+}
+
+.li__index:hover {
+
+  background-color: grey;
+}

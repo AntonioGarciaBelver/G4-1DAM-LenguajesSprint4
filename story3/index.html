@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="author"
+      content="Daniel del Toro Boigues y Roberto García Sánchez // Grupo 4"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/285551302d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Este HTML contiene los siguientes Bootstrap:
+				· Carousel de imagenes Alvaro
+				· Menú hamburguesa Roberto-->
+    <!--Las dos líneas siguientes tienen que añadirse en los HTML que contengan
+    Bootstrap. Para evitar fallos, asegurarse de poner la última versión-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Index PC4U</title>
+  </head>
+
+  <body class="body__RG">
+    <header>
+      <!-- INICIO Menú hamburguesa Roberto -->
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a href="rss/rss.xml">
+            <img src="rss/rssimagen.gif" />
+          </a>
+          <a class="navbar-brand" href="#">MENÚ</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">ÍNDICE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./views/products.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./views/service.html">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./views/about_us.html"
+                  >SOBRE NOSOTROS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./views/contact.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- FIN Menú hamburguesa Roberto -->
+    </header>
+    <!-- Carousel de imagenes Alvaro -->
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/slider3.jpg"
+            class="d-block"
+            style="width: 100%;"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/slider2.jpg"
+            class="d-block"
+            style="width: 100%;"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/slider1.jpg"
+            class="d-block"
+            style="width: 100%;"
+          />
+        </div>
+      </div>
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <main>
+      <div class="grid-container-index">
+        <div>
+          <img src="./images/monitorGamer.jpeg" width="100%" />
+          <p>
+            -Este monitor lo tiene prácticamente todo para convencer a los
+            entusiastas de los juegos. Su corazón es un panel LCD VA de 43
+            pulgadas con resolución 4K UHD y 10 bits, un contraste nativo de
+            4000:1, una capacidad de entrega de brillo típica de 750 nits, un
+            tiempo de respuesta de 1 ms (MPRT), atenuación local de la
+            retroiluminación y una frecuencia de refresco máxima de 144 Hz.
+          </p>
+        </div>
+
+        <div>
+          <img src="./images/ratonGamer.jpeg" width="100%" />
+          <p>
+            -Aunque no son de la misma marca, algo que realmente no tiene
+            ninguna importancia, este ratón forma una pareja perfecta con el
+            teclado de Razer que hemos seleccionado. Este G903 Lightspeed de
+            Logitech inalámbrico también es un dispositivo para gaming, pero su
+            alta precisión y su ergonomía encajan a las mil maravillas en otros
+            escenarios de uso, como la ofimática o la creación de contenidos.
+            Aunque, eso sí, se luce con los juegos.
+          </p>
+        </div>
+
+        <div>
+          <img src="./images/tecladoGamer.jpeg" width="100%" />
+          <p>
+            -El teclado mecánico que hemos elegido para este PC es una delicia.
+            Aunque su diseño delata su vocación de aportar su granito de arena a
+            una máquina para juegos, en realidad es una solución todoterreno
+            perfecta para jugar, escribir o hacer cualquier otra cosa. He tenido
+            la oportunidad de probarlo, aunque aún no a fondo, y este BlackWidow
+            Elite de Razer me gustó tanto que no he podido resistirme a
+            decantarme por él e incorporarlo a nuestro PC de referencia.
+          </p>
+        </div>
+
+        <div>
+          <img src="./images/escritorioGamer2.jpeg" width="100%" />
+          <p>
+            -El equipo que hemos configurado es, ante todo, un auténtico
+            todoterreno. Uno de los requisitos que nosotros mismos nos hemos
+            impuesto requiere que su rendimiento en todos los escenarios de uso
+            sea sobresaliente, y creemos que la configuración que estamos a
+            punto de describir lo cumple. Sin embargo, veréis que algunos
+            componentes tienen la vocación de formar parte de un PC para juegos.
+          </p>
+        </div>
+      </div>
+
+      <div class="div__contacto">
+        <ul class="contacto">
+          <li class="list">Plaza Virgen Milagrosa 11 290117</li>
+          <li class="correo_Alvaro">PCT4U@mail.com</li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <h2>Derechos de autor</h2>
+      <p>
+        PC4T &copy; guarda los derechos de autor de esta web desde el año 2021.
+        Created by Daniel del Toro y Roberto García.
+      </p>
+      <i class="fas fa-barcode"></i>
+    </footer>
+  </body>
+</html>

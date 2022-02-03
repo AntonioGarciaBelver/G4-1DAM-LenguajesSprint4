@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+	<title>Tienda Informática PCT4U</title>
+	<link>https://bzfshg6w5vpj9uzzazf57g.on.drv.tw/Lenguajes%20sprint%203/Lenguajes_Sprint3Final-master(%C3%BAltimo)/</link>
+	<description>Tienda de compra y reparación de ordenadores.</description>
+  <item>
+    <title>Indice</title>
+    <link>https://bzfshg6w5vpj9uzzazf57g.on.drv.tw/Lenguajes%20sprint%203/Lenguajes_Sprint3Final-master(%C3%BAltimo)/</link>
+    <description>Página inicio de la web de PCT4U</description>
+  </item>
+  <item>
+    <title>Productos</title>
+    <link>https://bzfshg6w5vpj9uzzazf57g.on.drv.tw/Lenguajes%20sprint%203/Lenguajes_Sprint3Final-master(%C3%BAltimo)/views/products.html</link>
+    <description>Página de venta de ordenadores y periféricos de PCT4U</description>
+  </item>
+  <item>
+    <title>Servicios</title>
+    <link>https://bzfshg6w5vpj9uzzazf57g.on.drv.tw/Lenguajes%20sprint%203/Lenguajes_Sprint3Final-master(%C3%BAltimo)/views/service.html</link>
+    <description>Página de oferta de servicio de reparaciones de PCT4U</description>
+  </item>
+  <item>
+    <title>Sobre Nosotros</title>
+    <link>https://bzfshg6w5vpj9uzzazf57g.on.drv.tw/Lenguajes%20sprint%203/Lenguajes_Sprint3Final-master(%C3%BAltimo)/views/about_us.html</link>
+    <description>Página de información de la empresa y los participantes de PCT4U</description>
+  </item>
+  <item>
+    <title>Contacto</title>
+    <link>https://bzfshg6w5vpj9uzzazf57g.on.drv.tw/Lenguajes%20sprint%203/Lenguajes_Sprint3Final-master(%C3%BAltimo)/views/contact.html</link>
+    <description>Página de contacto de PCT4U</description>
+  </item>
+</channel>
+</rss>
