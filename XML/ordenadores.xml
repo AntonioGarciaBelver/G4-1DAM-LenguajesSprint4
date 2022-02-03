@@ -5,52 +5,60 @@
     <title lang="en">reparacion moviles</title>
     <tiporeparacion>arreglo de pantalla</tiporeparacion>
     <otrareparacion>bateria</otrareparacion>
-   
+   <precio>30 euros</precio>
   </ordenadores>
 <ordenadores category="reparacion">
     <title lang="en">videoconsolas</title>
     <tiporeparacion>cambio de pasta termica</tiporeparacion>
     <otrareparacion>remplazo yoistick</otrareparacion>
-  </ordenadores>
+   <precio>45 euros</precio>
+ </ordenadores>
 
   <ordenadores category="raparacion">
     <title lang="en">reparacion patines</title>
     <tiporeparacion>cambio centralita</tiporeparacion>
     <otrareparacion>cambio ruedas</otrareparacion> 
+<precio>20 euros</precio>
   </ordenadores>
   <ordenadores category="reparacion">
     <title lang="en">reparacion ordenadores</title>
     <tiporeparacion>reparacion placa base</tiporeparacion>
     <otrareparacion>ampliacion de memoria</otrareparacion> 
-  </ordenadores>
+  <precio>50 euros</precio>
+</ordenadores>
   <ordenadores category="reparacion">
     <title lang="en">reparacion impresoras</title>
     <tiporeparacion>arreglo placa base</tiporeparacion>
     <otrareparacion>cambio baterias</otrareparacion> 
-  </ordenadores>
+  <precio>45 euros</precio>
+</ordenadores>
   <ordenadores category="reparacion">
     <title lang="en">reparacion tablet</title>
     <tiporeparacion>cambio placa base</tiporeparacion>
     <otrareparacion>cambio componentes</otrareparacion> 
+  <precio>35 euros</precio>
   </ordenadores>
 
  <ordenadores category="reparacion">
     <title lang="en">reparacion perifericos</title>
     <tiporeparacion>limpieza completa</tiporeparacion>
     <otrareparacion>cambio de piezas</otrareparacion> 
-  </ordenadores>
+  <precio>40 euros</precio>
+</ordenadores>
 
 <ordenadores category="reparto">
     <title lang="en">reparto a casa</title>
     <horaentrega>mañana</horaentrega>
     <rangoentrega>nacional</rangoentrega>
+  <precio>10 euros</precio>
   </ordenadores>
 
 <ordenadores category="reparto">
     <title lang="en">recogida en el sitio</title>
     <horaentrega>cualquier hora</horaentrega>
     <rangoentrega>en nuestra tienda</rangoentrega>
-  </ordenadores>
+ <precio>0 euros</precio>
+ </ordenadores>
 
 <ordenadores category="garantia">
     <title lang="en">garantia de las cosas</title>
