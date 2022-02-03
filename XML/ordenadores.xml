@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servicios>
+
+  <ordenadores category="reparacion">
+    <title lang="en">reparacion moviles</title>
+    <tiporeparacion>arreglo de pantalla</tiporeparacion>
+    <otrareparacion>bateria</otrareparacion>
+   
+  </ordenadores>
+<ordenadores category="reparacion">
+    <title lang="en">videoconsolas</title>
+    <tiporeparacion>cambio de pasta termica</tiporeparacion>
+    <otrareparacion>remplazo yoistick</otrareparacion>
+  </ordenadores>
+
+  <ordenadores category="raparacion">
+    <title lang="en">reparacion patines</title>
+    <tiporeparacion>cambio centralita</tiporeparacion>
+    <otrareparacion>cambio ruedas</otrareparacion> 
+  </ordenadores>
+  <ordenadores category="reparacion">
+    <title lang="en">reparacion ordenadores</title>
+    <tiporeparacion>reparacion placa base</tiporeparacion>
+    <otrareparacion>ampliacion de memoria</otrareparacion> 
+  </ordenadores>
+  <ordenadores category="reparacion">
+    <title lang="en">reparacion impresoras</title>
+    <tiporeparacion>arreglo placa base</tiporeparacion>
+    <otrareparacion>cambio baterias</otrareparacion> 
+  </ordenadores>
+  <ordenadores category="reparacion">
+    <title lang="en">reparacion tablet</title>
+    <tiporeparacion>cambio placa base</tiporeparacion>
+    <otrareparacion>cambio componentes</otrareparacion> 
+  </ordenadores>
+
+ <ordenadores category="reparacion">
+    <title lang="en">reparacion perifericos</title>
+    <tiporeparacion>limpieza completa</tiporeparacion>
+    <otrareparacion>cambio de piezas</otrareparacion> 
+  </ordenadores>
+
+<ordenadores category="reparto">
+    <title lang="en">reparto a casa</title>
+    <horaentrega>mañana</horaentrega>
+    <rangoentrega>nacional</rangoentrega>
+  </ordenadores>
+
+<ordenadores category="reparto">
+    <title lang="en">recogida en el sitio</title>
+    <horaentrega>cualquier hora</horaentrega>
+    <rangoentrega>en nuestra tienda</rangoentrega>
+  </ordenadores>
+
+<ordenadores category="garantia">
+    <title lang="en">garantia de las cosas</title>
+    <duracion>la garantia tiene durcion de dos años</duracion>
+    <precio>la grantia tien el precio de 20 euros adicionales</precio>
+  </ordenadores>
+
+</servicios>
