@@ -1,69 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <servicios>
 
-  <ordenadores category="reparacion">
-    <title lang="en">reparacion moviles</title>
-    <tiporeparacion>arreglo de pantalla</tiporeparacion>
-    <otrareparacion>bateria</otrareparacion>
-   <precio>30 euros</precio>
-  </ordenadores>
-<ordenadores category="reparacion">
-    <title lang="en">videoconsolas</title>
-    <tiporeparacion>cambio de pasta termica</tiporeparacion>
-    <otrareparacion>remplazo yoistick</otrareparacion>
-   <precio>45 euros</precio>
- </ordenadores>
+    <ordenadores category="reparacion">
+        <title>reparacion moviles</title>
+        <tiporeparacion>arreglo de pantalla</tiporeparacion>
+        <otrareparacion>bateria</otrareparacion>
+    <precio>30</precio>
+    </ordenadores>
 
-  <ordenadores category="raparacion">
-    <title lang="en">reparacion patines</title>
-    <tiporeparacion>cambio centralita</tiporeparacion>
-    <otrareparacion>cambio ruedas</otrareparacion> 
-<precio>20 euros</precio>
-  </ordenadores>
-  <ordenadores category="reparacion">
-    <title lang="en">reparacion ordenadores</title>
-    <tiporeparacion>reparacion placa base</tiporeparacion>
-    <otrareparacion>ampliacion de memoria</otrareparacion> 
-  <precio>50 euros</precio>
-</ordenadores>
-  <ordenadores category="reparacion">
-    <title lang="en">reparacion impresoras</title>
-    <tiporeparacion>arreglo placa base</tiporeparacion>
-    <otrareparacion>cambio baterias</otrareparacion> 
-  <precio>45 euros</precio>
-</ordenadores>
-  <ordenadores category="reparacion">
-    <title lang="en">reparacion tablet</title>
-    <tiporeparacion>cambio placa base</tiporeparacion>
-    <otrareparacion>cambio componentes</otrareparacion> 
-  <precio>35 euros</precio>
-  </ordenadores>
+    <ordenadores category="reparacion">
+        <title>videoconsolas</title>
+        <tiporeparacion>cambio de pasta termica</tiporeparacion>
+        <otrareparacion>remplazo yoistick</otrareparacion>
+    <precio>45</precio>
+    </ordenadores>
 
- <ordenadores category="reparacion">
-    <title lang="en">reparacion perifericos</title>
-    <tiporeparacion>limpieza completa</tiporeparacion>
-    <otrareparacion>cambio de piezas</otrareparacion> 
-  <precio>40 euros</precio>
-</ordenadores>
+    <ordenadores category="raparacion">
+        <title>reparacion patines</title>
+        <tiporeparacion>cambio centralita</tiporeparacion>
+        <otrareparacion>cambio ruedas</otrareparacion> 
+        <precio>20</precio>
+    </ordenadores>
 
-<ordenadores category="reparto">
-    <title lang="en">reparto a casa</title>
-    <horaentrega>mañana</horaentrega>
-    <rangoentrega>nacional</rangoentrega>
-  <precio>10 euros</precio>
-  </ordenadores>
+    <ordenadores category="reparacion">
+        <title>reparacion ordenadores</title>
+        <tiporeparacion>reparacion placa base</tiporeparacion>
+        <otrareparacion>ampliacion de memoria</otrareparacion> 
+        <precio>50</precio>
+    </ordenadores>
 
-<ordenadores category="reparto">
-    <title lang="en">recogida en el sitio</title>
-    <horaentrega>cualquier hora</horaentrega>
-    <rangoentrega>en nuestra tienda</rangoentrega>
- <precio>0 euros</precio>
- </ordenadores>
+    <ordenadores category="reparacion">
+        <title>reparacion impresoras</title>
+        <tiporeparacion>arreglo placa base</tiporeparacion>
+        <otrareparacion>cambio baterias</otrareparacion> 
+        <precio>45</precio>
+    </ordenadores>
 
-<ordenadores category="garantia">
-    <title lang="en">garantia de las cosas</title>
-    <duracion>la garantia tiene durcion de dos años</duracion>
-    <precio>la grantia tien el precio de 20 euros adicionales</precio>
-  </ordenadores>
+    <ordenadores category="reparacion">
+        <titl>reparacion tablet</title>
+        <tiporeparacion>cambio placa base</tiporeparacion>
+        <otrareparacion>cambio componentes</otrareparacion> 
+        <precio>35</precio>
+    </ordenadores>
+
+    <ordenadores category="reparacion">
+        <title>reparacion perifericos</title>
+        <tiporeparacion>limpieza completa</tiporeparacion>
+        <otrareparacion>cambio de piezas</otrareparacion> 
+        <precio>40</precio>
+    </ordenadores>
+
+    <ordenadores category="reparto">
+        <title>reparto a casa</title>
+        <horaentrega>mañana</horaentrega>
+        <rangoentrega>nacional</rangoentrega>
+        <precio>10</precio>
+    </ordenadores>
+
+    <ordenadores category="reparto">
+        <title>recogida en el sitio</title>
+        <horaentrega>cualquier hora</horaentrega>
+        <rangoentrega>en nuestra tienda</rangoentrega>
+        <precio>0</precio>
+    </ordenadores>
+
+    <ordenadores category="garantia">
+        <title>garantia de las cosas</title>
+        <duracion>la garantia tiene durcion de dos años</duracion>
+        <precio>20</precio>
+    </ordenadores>
 
 </servicios>
