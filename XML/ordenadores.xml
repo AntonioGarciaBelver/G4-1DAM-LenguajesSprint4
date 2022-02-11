@@ -37,7 +37,7 @@
     </ordenadores>
 
     <ordenadores category="reparacion">
-        <titl>reparacion tablet</title>
+        <title>reparacion tablet</title>
         <tiporeparacion>cambio placa base</tiporeparacion>
         <otrareparacion>cambio componentes</otrareparacion> 
         <precio>35</precio>
