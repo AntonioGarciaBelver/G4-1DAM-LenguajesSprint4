@@ -1,0 +1,18 @@
+STORY 7: CONSULTA XQUERY DE JUGADORES (20 PUNTOS) 
+Realiza las siguientes consultas con xquery en la base de datos de menú que has creado en baseX:
+•	mostrar los jugadores del segundo equipo
+//equipos/equipo[2]/jugador
+•	mostrar sólo los jugadores principales de todos equipos
+//equipos/equipo/jugador[@tipo="principal"]
+•	mostrar los jugadores con un sueldo mayor a 1500 euros
+//equipos/equipo/jugador[sueldo>1500]
+•	mostrar el equipo cuyo ranking sea igual a 1
+//equipos/equipo[posicion=1]/nombreequipo/text()
+•	mostrar sólo el nombre de los equipos y su ranking
+//equipos/equipo
+return $jugador/nombreequipo/text() | $jugador/posicion/text()
+•	Haz 3 consultas más sobre lo que quieras. Especifica que es lo que estás consultando.
+Mostrar solamente los nombres de los jugadores que tengan más de 30 años.
+//equipos/equipo/jugador[edad>30]/nombrejugador/text()
+
+
