@@ -1,0 +1,22 @@
+STORY 8: CONSULTA XQUERY DE SERVICIOS (20 PUNTOS)
+
+o	Mostrar sólo el título de todos los servicios
+	for $service in doc ("servicios.xml")//servicios/ordenadores/title/text()
+	return $service
+o	Mostrar el último servicio de la lista
+	for $service in doc ("servicios.xml")//servicios/ordenadores[last()]/title/text()
+	return $service
+o	Mostrar sólo el título y el precio de los servicios de la categoría que elijas
+	for $service in doc ("servicios.xml")//servicios/ordenadores
+	return $service/precio/text() | $service/title/text()
+o	Haz 3 consultas más sobre lo que quieras
+
+1.	“Saca impreso el titulo de los servicios con precio mayor a 30”
+for $service in doc ("servicios.xml")//servicios/ordenadores[precio>30]/title/text()
+return $service
+2.	“Busca el servicio el titulo de los servicios de reparto”
+for $service in doc ("servicios.xml")//servicios/ordenadores[@category='reparto']/title/text()
+return $service
+3.	“Consulta los tipos de reparacion de los servicios ”
+for $service in doc ("servicios.xml")//servicios/ordenadores/tiporeparacion/text()
+return $service
