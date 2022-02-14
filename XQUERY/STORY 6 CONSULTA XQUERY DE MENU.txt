@@ -1,0 +1,44 @@
+1.º Sólo los postres:
+
+for $menu in doc("Story 3_Antonio.xml")//restaurantmenu/plate[@category="dessert"]
+return $menu
+
+2.º Todos los platos que tengan un precio menor a 10 euros:
+
+for $menu in doc("Story 3_Antonio.xml")//restaurantmenu/plate[price<10]
+return $menu
+
+3.º Todos los platos que tenga como ingrediente Mozzarella:
+
+for $menu in doc("Story 3_Antonio.xml")//restaurantmenu/plate[ingredients='Mozzarella']
+return $menu
+
+4.º El último plato de la lista:
+
+for $menu in doc("Story 3_Antonio.xml")//restaurantmenu/plate[last()]
+return $menu
+
+5.º Sólo el nombre de todos los platos:
+
+for $menu in doc ("Story 3_Antonio.xml")//restaurantmenu/plate/name
+return $menu
+
+6.º Sólo el nombre y el primer ingrediente de todos los platos:
+
+for $menu in doc ("Story 3_Antonio.xml")//restaurantmenu/plate/ingredients[1] | //plate/name
+return $menu
+
+7.º Mostrar los platos con un precio menor de 5:
+
+for $menu in doc ("Story 3_Antonio.xml")//restaurantmenu/plate[price<5]
+return $menu
+
+8.º Mostrar los nombres de los platos con un precio mayor de 5:
+
+for $menu in doc ("Story 3_Antonio.xml")//restaurantmenu/plate[price>5]/name
+return $menu
+
+9.º Mostrar los 5 primeros platos del menú:
+
+for $menu in doc ("Story 3_Antonio.xml")//restaurantmenu/plate[position()<6]
+return $menu
