@@ -1,18 +1,34 @@
 STORY 7: CONSULTA XQUERY DE JUGADORES (20 PUNTOS) 
+
+
 Realiza las siguientes consultas con xquery en la base de datos de menú que has creado en baseX:
 •	mostrar los jugadores del segundo equipo
-//equipos/equipo[2]/jugador
+for $jugador in doc("sprint4.xml")//equipos/equipo[2]/jugador
+return $jugador
+
 •	mostrar sólo los jugadores principales de todos equipos
-//equipos/equipo/jugador[@tipo="principal"]
+for $jugador in doc("sprint4.xml")//equipos/equipo/jugador[@tipo="principal"]
+return $jugador
+
 •	mostrar los jugadores con un sueldo mayor a 1500 euros
-//equipos/equipo/jugador[sueldo>1500]
+for $jugador in doc("sprint4.xml")//equipos/equipo/jugador[sueldo>1500]
+return $jugador
+
 •	mostrar el equipo cuyo ranking sea igual a 1
-//equipos/equipo[posicion=1]/nombreequipo/text()
+for $jugador in doc("sprint4.xml")//equipos/equipo[posicion=1]/nombreequipo/text()
+return $jugador
+
 •	mostrar sólo el nombre de los equipos y su ranking
-//equipos/equipo
+for $jugador in doc("sprint4.xml")//equipos/equipo
 return $jugador/nombreequipo/text() | $jugador/posicion/text()
+
 •	Haz 3 consultas más sobre lo que quieras. Especifica que es lo que estás consultando.
-Mostrar solamente los nombres de los jugadores que tengan más de 30 años.
-//equipos/equipo/jugador[edad>30]/nombrejugador/text()
-
-
+- Mostrar solamente los nombres de los jugadores
+for $jugador in doc("sprint4.xml")//equipos/equipo/jugador/nombrejugador/text()
+return $jugador
+- Mostrar los jugadores con un sueldo menor a 2000 euros
+for $jugador in doc("sprint4.xml")//equipos/equipo/jugador[sueldo<2000]
+return $jugador
+- Mostrar solamente los nombres de los jugadores que tengan más de 30 años.
+for $jugador in doc("sprint4.xml")//equipos/equipo/jugador[edad>30]/nombrejugador/text()
+return $jugador
